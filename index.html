@@ -1,0 +1,149 @@
+<html>
+<head> 
+  <!-- import Athiti font from google fonts -->  
+  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- importing font awesome icons --> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- collapsed navbar-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--end collapse-->
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="#home" class="scroll"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+         <li><a href="#about" class="scroll"><span class="glyphicon glyphicon-user"></span> About </a></li> 
+         <li><a href="#experience" class="scroll"><span class="glyphicon glyphicon-road"></span> Experience</a></li>
+         <li><a href="#portfolio" class="scroll"><span class="glyphicon glyphicon-briefcase"></span> Portfolio</a></li>
+         <li><a href="#contact" class="scroll"><span class="glyphicon glyphicon-globe"></span> Contact</a></li>
+       </ul>
+     </div>
+  </div>
+</nav>
+  
+<!-- Section 1 -->
+  <section class="pageOne text-center" id="home">
+    <div id="overlay">
+      <div class="title">
+        <h1><strong> SUSHMIT YADAV</strong></h1>
+        <h3 id="jobPosition"><strong> Software Engineer  at  12<sup>th</sup> Wonder </strong></h3>
+      </div>
+      <div class="row text-center">
+        <div class="border contact"><a href="mailto:sushmityadav007@gmail.com"><h2 style="color: white;" id="borderText"><strong> Contact </strong></h2></a></div>
+        <div class="border CV"><h2 style="color: white;" id="borderText"><a href="http://www.julienrio.com/marketing/pictures/julienrio.com_send_me_an_email.jpg" target="_blank"><strong> CV </strong></a></h2></div>
+      </div>
+    </div>
+  </section>
+  
+<!-- self-introduction --> 
+<!-- <div class="self-intro">
+  <p id="self-intro" style="padding-bottom:10px"><strong> I fell in love with programming when I was 17 and have been self-learning ever since. </strong></p>
+  <p id="self-intro"> First Class Honours undergraduate at King's College London studying computer science.</p>
+  <p id="self-intro"> Co-Founder and CTO of <a href="https://eternity.dating" target="_blank"><strong> Eternity. </strong></a> Founder and CEO of <strong> Hustlr </strong></p>
+  <p id="self-intro"> Founder and Chairman of <strong> <a href="https://kbfs.org.uk" target="_blank">King's Banking Finance Society</a> (3000+ Members) </strong></p>
+</div> -->
+
+<!-- Section 2 --> 
+  <section class="pageTwo" id="about">
+    <div class="text-center pageTitles border">
+      <h1 style="color:black; top:20px;" id="pageTitle"><strong> TECHNICAL SKILLS </strong></h1>  
+    </div> 
+    <h2 class="text-center" id="pageTwoLabel"><strong> Languages: </strong></h2> 
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill" style="color:white;">JavaScript </div>
+        <div class="skill"> Python </div> 
+        <div class="skill"> Swift </div>
+        <div class="skill"> Type Script </div>
+        <div class="skill"> HTML5 </div> 
+        <div class="skill"> CSS </div>   
+    </div> 
+    <h2 class="text-center" id="pageTwoLabel"><strong> Frameworks / Libraries: </strong></h2>
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill"> Angular </div>
+      <div class="skill"> React Native </div>
+      <div class="skill"> NodeJS </div>
+      <div class="skill"> Firebase </div> 
+    </div> 
+    <h2 class="text-center" id="pageTwoLabel"><strong> Platforms: </strong></h2>
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill"> Web </div>
+      <div class="skill"> iOS </div>
+    </div> 
+  </section>
+
+<!-- Section 3 --> 
+  <section class="pageThree" id="experience" style="color:black;"> 
+    <h1 class="text-center border pageTitles" style="color:black; margin-bottom: 3%;" id="pageTitle"> EXPERIENCE </h1> 
+    <div class="work-timeline">
+      <ul class="timeline">
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail"> Apl 2019 - Present </p>
+            <h5 id="workplace"><a href="https://titan-uat.12thwonder.com/" target="_blank"> 12thwonder </a></h5>
+            <h5 id="jobPos"><strong> Software Engineer  </strong></h5>
+            <p id="jobDesc"> Location: Pune, India </p>
+            <p id="jobDesc"> • Developing in <a href="https://titan-uat.12thwonder.com/" target="_blank"> Titan </a> </p>
+            <!-- <p id="jobDesc"> •	Built a load generator for Prime Video’s Tier 1 App Vending service using Java to verify it operates at scale, increasing throughput by 80%. Integrated into the CD pipelines to detect issues early on and to discover regressions against deployments over time </p> -->
+            <!-- <p id="jobDesc"> •	Visualized latency and resource utilization in internal dashboards. Optimized highly distributed real time infrastructure </p> -->
+            <!-- <p id="jobDesc"> •	Wrote smoke tests to qualify builds and expose errors on critical functionalities </p> -->
+          </div>
+        </li>
+      </ul>
+      <ul class="timeline">
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail"> Jan - Nov 2018</p>
+            <h5 id="workplace"><a href="https://titan-uat.12thwonder.com/" target="_blank"> 12thwonder </a></h5>
+            <h5 id="jobPos"><strong> Software Engineer Intern (12 <sup>th</sup> wonder) </strong></h5>
+            <p id="jobDesc"> Location: Pune, India </p>
+            <p id="jobDesc"> •  build a IOS Application </p> 
+          </div>
+        </li>
+      </ul>
+
+
+    </div>  
+  </section>
+  
+<!-- Section 4 Project Showcase -->   
+  <section class="pageFour" id="portfolio">
+    <h1 class="text-center border pageTitles" style="border-color: white; margin-bottom: 20px;" id="pageTitle"> PORTFOLIO </h1>
+    <div class="container" style="align-items: center;">
+      <h1 class="text-center" style="color: aliceblue;"> Coming Soon </h1>
+
+    <!-- end of 6th row -->
+    </div>
+  </section>
+
+<!-- Section 5 -->  
+  <section class="pageFive" id="contact" style="background-color: currentcolor;">
+    <h1 class="text-center" style="color: aliceblue;"> Say Hi </h1>
+    <div class="bottomBtnList">
+      <a class="btn btn-email btn-lg" href="mailto:sushmityadav007@gmail.com" title="Email"><i class="fa fa-2x fa-envelope"></i></a>
+      <a class="btn btn-linkedin btn-lg" href="https://www.linkedin.com/in/chris-%E2%80%9Cchow-ching%E2%80%9D-jim-77b090128/" target="_blank" title="LinkedIn"><i class="fa fa-2x fa-linkedin"></i></a>
+      <a class="btn btn-github btn-lg" href="https://github.com/chrisjim316" target="_blank" title="GitHub"><i class="fa fa-2x fa-github"></i></a>
+    </div> 
+  </section> 
+  
+<!-- The footer -->
+  <footer>
+    <p id="footer">Copyright © SUSHMIT YADAV 2020. All Rights Reserved</p>
+  </footer>
+</body>
+</html>

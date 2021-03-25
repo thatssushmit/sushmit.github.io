@@ -9,7 +9,7 @@ version: 2
 name: Sushmit Yadav
 title: Front-End Engineer
 email: thatsushmit@gmail.com
-website: thatsushmit.github.io
+website: https://thatssushmit.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -102,12 +102,22 @@ content:
           During my time at Mumbai I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
 
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+                <mark>Angular</mark>                     <mark>JavaScript</mark>                                        <mark>HTML</mark>
+                        <mark>Linux</mark>                      <mark>AWS ES2</mark>                            <mark>TypeScript</mark>
+                        <mark>SwiftyUI</mark>                       <mark>CocoaPod</mark>                       <mark>Swift</mark>
+
+
+       
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
+        Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+        - Rock climbing
+        - Gaming
 
 
 # Footer

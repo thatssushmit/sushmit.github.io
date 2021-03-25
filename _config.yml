@@ -48,9 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I'm a software engineer with a strong passion for clean code. I'm constantly looking for new ways to do things better and learning new practices. In my search, I learned more about Mobile Application development which was a turning point in my career. Later, I moved on to UI Developer and passionately working on the same.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Angular</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section

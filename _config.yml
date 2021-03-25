@@ -62,7 +62,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
+            icon: fab fa-app-store
             url: github.com/thatssushmit/vCard
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github

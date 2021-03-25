@@ -117,8 +117,6 @@ footer_show_references: false
 
 # Build settings
 #remote_theme: sproogen/resume-theme
-#future:true
-#timezone:TIMEZONE
 
 sass:
   sass_dir: _sass

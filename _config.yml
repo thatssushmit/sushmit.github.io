@@ -58,12 +58,11 @@ content:
     content:
       - layout: top-middle
         title: vCard Hub
-        link: https://apps.apple.com/us/app/v-card-digital-business-card/id1453676978?amp%3Bmt=8&ls=1
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-app-store
-            url: github.com/thatssushmit/vCard
+            url: https://apps.apple.com/us/app/v-card-digital-business-card/id1453676978?amp%3Bmt=8&ls=1
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)

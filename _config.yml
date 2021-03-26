@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sushmit Yadav
-title: Front-End Engineer
+title: Software Engineer
 email: thatsushmit@gmail.com
 website: https://thatssushmit.github.io
 
@@ -62,7 +62,7 @@ content:
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-app-store
-            url: https://apps.apple.com/us/app/v-card-digital-business-card/id1453676978?amp%3Bmt=8&ls=1
+            url: https://apps.apple.com/in/app/drink-water-drinking-reminder/id1478980974
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -78,7 +78,7 @@ content:
         title: 12th Wonder
         link: 12thwonder.com
         # link_text: boringcompany.com
-        sub_title: Font-End Engineer
+        sub_title: Front-End Engineer
         caption: January 2019 - Present
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the  <mark>Titan</mark>

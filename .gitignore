@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Vite build output directory
+dist/
+
+# Cache directory
+.cache/
+
+# Environment variables file (if used)
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+node_modules/@typescript-eslint/eslint-plugin/dist/configs/disable-type-checked.js
+src/components/avatar-card/index.tsx
+src/components/blog-card/index.tsx
+src/components/certification-card/index.tsx
+src/constants/errors.tsx
